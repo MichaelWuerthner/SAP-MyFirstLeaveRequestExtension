@@ -1,0 +1,111 @@
+{
+  "projectType": [
+    "sap.watt.uitools.ide.fiori"
+  ],
+  "generation": [
+    {
+      "templateId": "fioriexttemplate.extensionProject",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Wed, 13 Sep 2017 14:13:48 GMT"
+    },
+    {
+      "templateId": "fioriexttemplate.hidecontrolcomponent",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Wed, 13 Sep 2017 14:16:32 GMT"
+    },
+    {
+      "templateId": "fioriexttemplate.extendcontrollerhook",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Wed, 13 Sep 2017 14:21:38 GMT"
+    },
+    {
+      "templateId": "fioriexttemplate.extendviewcomponent",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Wed, 13 Sep 2017 15:11:47 GMT"
+    },
+    {
+      "templateId": "fioriexttemplate.replaceviewcomponent",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Wed, 13 Sep 2017 20:14:18 GMT"
+    },
+    {
+      "templateId": "fioriexttemplate.extendcontrollercomponent",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Wed, 13 Sep 2017 20:20:59 GMT"
+    },
+    {
+      "templateId": "fioriexttemplate.i18ncomponent",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Wed, 13 Sep 2017 20:54:20 GMT"
+    }
+  ],
+  "translation": {
+    "translationDomain": "",
+    "supportedLanguages": "en,fr,de",
+    "defaultLanguage": "en",
+    "defaultI18NPropertyFile": "i18n.properties",
+    "resourceModelName": "i18n"
+  },
+  "mockpreview": {
+    "mockUri": "/sap/opu/odata/sap/HCM_LEAVE_REQ_CREATE_SRV",
+    "metadataFilePath": "localService/metadata.xml",
+    "loadJSONFiles": true,
+    "loadCustomRequests": false,
+    "mockRequestsFilePath": ""
+  },
+  "basevalidator": {
+    "services": {
+      "xml": "fioriXmlAnalysis",
+      "js": "fioriJsValidator"
+    }
+  },
+  "codeCheckingTriggers": {
+    "notifyBeforePush": true,
+    "notifyBeforePushLevel": "Error",
+    "blockPush": false,
+    "blockPushLevel": "Error"
+  },
+  "extensibility": {
+    "controllers": {
+      "Main": "/Main.controller.js",
+      "S1": "/view/S1.controller.js",
+      "S2": "/view/S2.controller.js",
+      "S3": "/view/S3.controller.js",
+      "S6B": "/view/S6B.controller.js"
+    },
+    "views": {
+      "Main": "/Main.view.xml",
+      "S1": "/view/S1.view.xml",
+      "S2": "/view/S2.view.xml",
+      "S3": "/view/S3.view.xml",
+      "S6B": "/view/S6B.view.xml"
+    },
+    "fragments": {},
+    "type": "hcp",
+    "shouldLinkComponentToManifest": false,
+    "component": "/Component.js",
+    "configuration": "/Configuration.js",
+    "versionJsonPath": "/version.json",
+    "system": {
+      "account": "a510f8098",
+      "type": "subscription",
+      "providerAccount": "fioritrial",
+      "providerName": "hcmmyleaverequest",
+      "application": "hcmmyleaverequest"
+    },
+    "parentResourceRootUrl": "/ext/parent/undefined/",
+    "namespace": "hcm.myleaverequest",
+    "resourceBundle": "i18n/i18n.properties"
+  },
+  "build": {
+    "targetFolder": "dist",
+    "sourceFolder": "webapp",
+    "buildRequired": true
+  },
+  "hcpdeploy": {
+    "account": "a510f8098",
+    "name": "hcmmyleaverequestextension",
+    "lastVersionWeTriedToDeploy": "1.0.0"
+  },
+  "dataBinding": {}
+}

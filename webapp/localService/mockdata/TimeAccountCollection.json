@@ -1,0 +1,13 @@
+[{
+	"EmployeeID": "1",
+	"FilterStartDate": "/Date(1504216800000)/",
+	"FilterEndDate": "/Date(1506722400000)/",
+	"ProcessingStartDate": "/Date(1505685600000)/",
+	"ProcessingEndDate": "/Date(1505858400000)/",
+	"BalanceEntitlementQuantity": 25,
+	"BalanceUsedQuantity": 3,
+	"BalanceApprovedQuantity": 2,
+	"BalanceRequestedQuantity": 2,
+	"BalancePlannedQuantity": 2,
+	"BalanceAvailableQuantity": 22
+}]

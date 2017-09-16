@@ -1,0 +1,23 @@
+[{
+	"EmployeeID": "1",
+	"RequestID": "1",
+	"ChangeStateID": 1,
+	"InfoType": "1",
+	"LeaveKey": "1",
+	"ActionCode": 1,
+	"ProcessCheckOnlyInd": false,
+	"StatusCode": "1",
+	"StatusName": "Requested",
+	"AbsenceTypeCode": "1",
+	"AbsenceTypeName": "Urlaub",
+	"WorkingHoursDuration": 8,
+	"WorkingDaysDuration": 5,
+	"TimeUnit": "Hour",
+	"TimeUnitCode": "h",
+	"ApproverEmployeeID": "1",
+	"ApproverEmployeeName": "Gary Ginger",
+	"ActionModifyInd": true,
+	"LeaveRequestType": 1,
+	"StartDate": "/Date(1506290400000)/",
+	"EndDate": "/Date(1506549600000)/"
+}]

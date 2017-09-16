@@ -1,0 +1,34 @@
+{
+    "application": {
+        "id": "",
+        "title": "My Extended Leave Request",
+        "type": "SAP_UI5_Component",
+        "componentUrl": "/webapp",
+        "appUrl": "#hcmmyleaverequestExtension-Display",
+        "navigationComponentName": "hcm.myleaverequest.hcmmyleaverequestExtension",
+        "intentSemanticObject": "hcmmyleaverequestExtension",
+        "intentAction": "Display",
+        "html5ApplicationName": "hcmmyleaverequestextension",
+        "HCPParentApplicationName": "hcmmyleaverequest"
+    },
+    "assignment": {
+        "groups": [
+            "00000000-0000-1111-0000-00000000"
+        ],
+        "contentPackages": [
+            "00000000-0000-2222-0000-00000000"
+        ],
+        "categories": []
+    },
+    "tile": {
+        "type": "StaticTile",
+        "title": "My Extended Leave Request",
+        "subtitle": "",
+        "searchKeywords": "My Extended Leave Request,",
+        "displayIconUrl": "sap-icon://general-leave-request",
+        "displayInfoText": "",
+        "size": "1x1",
+        "serviceURL": "",
+        "refreshInterval": ""
+    }
+}

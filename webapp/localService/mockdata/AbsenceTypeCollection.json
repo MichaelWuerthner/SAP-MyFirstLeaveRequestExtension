@@ -1,0 +1,16 @@
+[{
+	"AllowedDurationSingleDayInd": true,
+	"AllowedDurationMultipleDayInd": true,
+	"NoteVisibleInd": true,
+	"DefaultType": true,
+	"AttachmentEnabled": true,
+	"EmployeeID": "1",
+	"InfoType": "1",
+	"AbsenceTypeCode": "1",
+	"AbsenceTypeName": "Urlaub",
+	"ActionCreate": true,
+	"ActionModify": true,
+	"ApproverVisibleInd": true,
+	"ApproverReadOnlyInd": false,
+	"AllowedDurationPartialDayInd": true
+}]
